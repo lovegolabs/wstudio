@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wushen Studio</title>
-    <link>https://ws.lovegolabs.com/</link>
+    <link>https://lovegolabs.github.io/wstudio/</link>
     <description>Recent content on Wushen Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 16:28:12 +0800</lastBuildDate><atom:link href="https://ws.lovegolabs.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 16:28:12 +0800</lastBuildDate><atom:link href="https://lovegolabs.github.io/wstudio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firestone Idle RPG</title>
-      <link>https://ws.lovegolabs.com/game/game/</link>
+      <link>https://lovegolabs.github.io/wstudio/game/game/</link>
       <pubDate>Mon, 29 Mar 2021 16:28:12 +0800</pubDate>
       
-      <guid>https://ws.lovegolabs.com/game/game/</guid>
+      <guid>https://lovegolabs.github.io/wstudio/game/game/</guid>
       <description>Introduction Firestone Heroes is a casual idle RPG game that can fight automatically or manually manipulate hero skills. The story takes the world of El continent. The human kingdom is invaded by undead creatures and orcs, creating chaos in the kingdom. While humans are busy dealing with enemies, the claws of the dark forces have reached the castle and stole the treasure of the country &amp;ldquo;Firestone Heart&amp;rdquo; ,which hidden deep in the palace tower.</description>
     </item>
     

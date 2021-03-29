@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ws.lovegolabs.com/zh/</loc>
+    <loc>https://lovegolabs.github.io/wstudio/zh/</loc>
     <lastmod>2021-03-29T16:28:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ws.lovegolabs.com/"
+                href="https://lovegolabs.github.io/wstudio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ws.lovegolabs.com/tw/"
+                href="https://lovegolabs.github.io/wstudio/tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://ws.lovegolabs.com/zh/"
+                href="https://lovegolabs.github.io/wstudio/zh/"
                 />
   </url><url>
-    <loc>https://ws.lovegolabs.com/zh/game/game/</loc>
+    <loc>https://lovegolabs.github.io/wstudio/zh/game/game/</loc>
     <lastmod>2021-03-29T16:28:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ws.lovegolabs.com/game/game/"
+                href="https://lovegolabs.github.io/wstudio/game/game/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ws.lovegolabs.com/tw/game/game/"
+                href="https://lovegolabs.github.io/wstudio/tw/game/game/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://ws.lovegolabs.com/zh/game/game/"
+                href="https://lovegolabs.github.io/wstudio/zh/game/game/"
                 />
   </url>
 </urlset>
