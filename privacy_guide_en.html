@@ -1,0 +1,534 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+	<meta name="robots" content="all">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="author" content="Wushen Studio">
+	<meta name="Copyright" content="Wushen Studio">
+	<style type="text/css">
+		/*==========基本样式==========*/
+		body,
+		div,
+		h1,
+		h2,
+		h3,
+		h4,
+		form,
+		img,
+		ul,
+		ol,
+		li,
+		dl,
+		dt,
+		dd,
+		p {
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			list-style: none;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			font-size: 100%;
+		}
+
+		img {
+			border: 0;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+		a {
+			color: #666666;
+			text-decoration: none;
+			outline: none;
+		}
+
+		a:hover {
+			color: #f00;
+			text-decoration: none;
+		}
+
+		/*清除浮动*/
+		* html .q {
+			height: 1%;
+		}
+
+		*+html .q {
+			height: 1%;
+		}
+
+		.q:after {
+			content: "";
+			display: block;
+			height: 0;
+			clear: both;
+			overflow: hidden;
+		}
+
+		.clear {
+			clear: both;
+			height: 0px;
+			overflow: hidden;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		body {
+			font-size: 14px;
+			color: #444;
+			font-family: Verdana, 微软雅黑
+		}
+
+		.wrap {
+			background: #f1f1f1 repeat-x 50% 0;
+		}
+
+		#header {
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 36px 0 0
+		}
+
+		#header h1 {
+			max-width: 1000px;
+			height: 160px;
+			margin: 0 auto;
+			padding-top: 20px;
+			background: #ffffff no-repeat 42px 20px;
+		}
+
+		#header a {
+			display: block;
+			width: 172px;
+			height: 53px;
+			overflow: hidden;
+			text-indent: -9999px;
+			margin: 0 0 0 42px;
+		}
+
+		.content {
+			width: 920px;
+			margin: -105px auto 0;
+			padding: 0 40px 40px;
+			background: #fff;
+			line-height: 26px;
+		}
+
+		.content h2 {
+			height: 40px;
+			line-height: 40px;
+			padding: 0 0 25px;
+			margin: 0 0 25px;
+			font-size: 30px;
+			line-height: 40px;
+			font-weight: normal;
+			text-align: center;
+			border-bottom: 1px solid #d1d1d1;
+		}
+
+		.content h3 {
+			margin: 20px 0 5px;
+		}
+
+		.content p {}
+
+		.content a {
+			text-decoration: underline;
+		}
+
+		.content .udl {
+			text-decoration: underline;
+		}
+
+		.content a:hover {
+			color: #f00;
+			text-decoration: underline;
+		}
+
+		.author {
+			padding: 10px 0;
+			text-align: right;
+			font-weight: bold;
+		}
+
+		#footer_css {
+			height: 146px;
+			text-align: center;
+			font-size: 12px;
+			line-height: 19px;
+		}
+
+		.wrap_css {
+			margin: 0 auto;
+			padding: 20px 0 0;
+			color: #666666;
+		}
+
+		.wrap_css p a {
+			color: #666666;
+		}
+
+		.wrap_css p a:hover {
+			color: #f00;
+		}
+
+		#footer_css p.e {
+			margin-top: -4px;
+			font-size: 10px;
+		}
+
+		.langP {
+			text-align: right;
+		}
+
+		.langP span {
+			padding: 0 10px;
+		}
+
+		.langP a.on {
+			font-weight: bold;
+			cursor: default;
+		}
+
+		.pri_section {
+			margin-top: 100px;
+		}
+
+		@media screen and (max-width: 1000px) {
+			.content {
+				padding: 0 5%;
+				width: 90%
+			}
+		}
+
+		@media screen and (max-width: 420px) {
+			.content h2 {
+				font-size: 18px;
+				font-weight: bold;
+				letter-spacing: -1px
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrap">
+		<div id="header">
+			<h1><a href="http://game.lovegolabs.com/" title="Wushen Game">Wushen Game</a></h1>
+		</div>
+		<div class="content">
+			<h2 id="privacy_guide">Wushen Game Privacy Protection Guidelines</h2>
+			<p class="langP"><a href="./privacy_guide_en.html" title="English">English</a><span>|</span><a
+					href="./privacy_guide_zh.html" title="简体">简体中文</a><span>|</span><a href="./privacy_guide_tw.html"
+					title="繁体">繁体中文</a></p>
+			<p>Updated on: January 26, 2021</p>
+			<p>Became effective on: January 26, 2021</p>
+			<h3>Summary</h3>
+			<p>Thank you for your choice of Wushen Game(hereafter referred to as "we" or "us"; in the Guidelines)! In
+				addition to Wushen Game Privacy Policy and Wushen Game License and Service Agreement, through the
+				Wushen Game Privacy Protection Guidelines ("Guidelines"), we will further elaborate on how we collect,
+				use, store and share your personal information when you are playing Wushen Game, as well as the relevant
+				rights you are entitled to. The Guidelines are part of the Wushen Game License and Service Agreement.
+				The highlights are as follows:</p>
+			<p><strong>&#8226; In order to provide you with game entertainment and to support the related player
+					interaction, consumption and other services, we need to collect information such as your game
+					history, device information, login data and others.</strong></p>
+			<p><strong>&#8226; In order to better protect both the physical and the mental health of minors and
+					facilitate a healthy access to the internet by minors, we may implement more stringent
+					anti-addiction measures in addition to the national regulations on anti-addiction policies of online
+					games. At the same time, we have been constantly developing and testing various new technologies to
+					better protect the minors. For instance, in order to further improve the accuracy of real-name
+					verification and to try best to prevent minors from impersonating the identity of others, we may
+					enable face-recognition verifications in some games or for some users (subject to specific game
+					strategies).</strong></p>
+			<p><strong>&nbsp; The above-mentioned face-recognition verification mainly compares the user's real face
+					information with the data sourced from the authoritative data platform of the police department. If
+					the comparison results match, the verification is successfully passed, and a proper game time limit
+					would be designated according to the actual category of the user’s age. If the comparison results do
+					not match or the user refuses to go through the verification process, we will deem the user as a
+					minor under 12 years old and enforce the corresponding anti-addiction supervision. The relevant
+					verification data of face-recognition, upon encryption, is only used for comparison with the data
+					from the authoritative data platform of the police department and will not be stored by us.</strong>
+			</p>
+			<p><strong>&#8226; You can manage your personal information and the relevant authorizations according to the
+					provisions of the Guidelines.</strong></p>
+			<p><strong>&#8226; We adopt a wide range of security measures to ensure that your personal information is
+					protected under a reasonably safe manner.</strong></p>
+			<p>By reading the full version of Wushen Game Privacy Protection Guidelines, you may learn more about
+				the processing rules of personal information such as the correspondence between the types and the uses
+				of personal information.</p>
+			<p><a href="#nav1">1. Information we collect</a></p>
+			<p><a href="#nav2">2. Storage of information</a></p>
+			<p><a href="#nav3">3. Information security</a></p>
+			<p><a href="#nav4">4. How we use the information</a></p>
+			<p><a href="#nav5">5. Sharing of information</a></p>
+			<p><a href="#nav6">6. Your rights</a></p>
+			<p><a href="#nav7">7. Amendments</a></p>
+			<p><a href="#nav8">8. Protection of minors</a></p>
+			<p><a href="#nav9">9. Others</a></p>
+			<p><a href="#nav10">10. Contact us</a></p>
+			<h3 id="nav1">1. Information We Collect</h3>
+			<p>While you are using Wushen Game Service, Wushen Game will collect through the following ways the
+				information that you voluntarily provide when using the service or the information generated by your use
+				of the service, in order provide and optimize our services to you and to ensure your account in safe
+				security:</p>
+			<p>1.1
+				When you register or use Wushen Game Service, we will collect the information of your network identity
+				and the personal device that you frequently use, in order to mark you as our users. If you use other
+				account recognized by us (hereafter referred to as "Third-Party Account") as the game account to login
+				to Wushen Game, we will collect your unique ID, avatar and user name of the Third-Party Account to store
+				your login information so that you can login on different devices.</p>
+			<p> In order to provide you with better services and improve your game experiences, we will collect and use
+				your information such as unique identification, nicknames, avatars, friend relationships and other
+				information authorized by you that are involved in your Third-party Account, and the related operation
+				information, game information and other information in Wushen Game (including but not limited to, your
+				log-in status, battle information/status, achievement information, etc.) and Wushen may present it to
+				you or other users or your friends. Depending on the specific situations of a game product, we may
+				provide you with the relevant permissions enabling you to adjust the settings as to whether or not to
+				display Such Information.</p>
+			<p>1.2
+				In order to comply with the relevant laws, regulations and policies and the requirements of competent
+				authorities, Wushen Game users need to complete the real-name verification before using and enjoying
+				Wushen Game. Upon your consent or by your voluntary provision, we will collect your real-name ID
+				information (including name, ID number, photo, etc.), which is a type of sensitive information. Your
+				refusal to provide your <strong>real-name ID information</strong> may result in a failure to log into
+				Wushen Game or the corresponding restrictions to your use of Wushen Game.</p>
+			<p>1.3
+				In order to ensure your use of our service under normal conditions, to maintain the normal operation of
+				basic functions of the game, to optimize the performance of the game product, to improve your gaming
+				experience and protect the security of your game account, we will collect the information such as your
+				device ID as well as the name, type and version of your device, the version of the system, IP address,
+				MAC address, application ID, network type and other information.</p>
+			<p>1.4
+				When you use Wushen Game Service, we will collect your game log information, such as log-in data, item
+				logs, game battle information, friends relation records, etc., so that you can view the records of your
+				game history on your terminal and we can use the above information for analyzing game operation
+				statistics, handling customer service complaints and other game security analyses. Also, to improve the
+				game experience for you, we may synchronize the afore-mentioned information with the later versions of
+				the game or with other products you are using that are provided by us.</p>
+			<p>1.5
+				If you use mobile phones of Xiaomi, Meizu, Huawei and other brands, the afore-mentioned mobile phone
+				manufacturers’ Push SDK that Wushen Game is connected to requires collecting the unique identifying
+				information (e.g. IMEI) of the mobile phone, and may collect your mobile phone’s model, system type,
+				system version, screen dimensions of the device and other parameters to enable the pushing of
+				information of Wushen Game products and activities, etc. Please refer to the privacy policies or
+				relevant statements of the SDK’s operators for more detailed information.</p>
+			<p>1.6 When you use the consumption function of Wushen Game products, we will collect your <strong>recharge
+					history, purchase records</strong> and other information, so that you can check your transaction
+				records, and at the same time to protect your virtual items to the greatest extent possible.
+				<strong>Recharge history and purchase records</strong> are sensitive information. It is necessary to
+				collect the above information in order to enable the consumption function of Wushen Game products,
+				otherwise the transaction could not be completed.
+			</p>
+			<p>1.7
+				To protect the security of your game account and to create a fair, healthy and safe gaming environment,
+				we will collect information such as your game identity information, hardware and operating system
+				information, processes and breakdown records and other information, for the purposes of fighting against
+				the behaviors that destroy the fair gaming environment or that interfere and disrupt normal game
+				services (such as detecting counterfeits, scanning plug-ins, preventing cheating, etc.).</p>
+			<p>1.8
+				When you interact with other players through text, images, voice, video and other means in the game, we
+				may collect and store the above information sent by you, for the purpose of filtering out pornographic,
+				violent, political and abusive contents, malicious advertisements and other improper contents to purify
+				the game environment and maintain a healthy Internet environment.</p>
+			<p>1.9
+				If you wish to interact with other game players through voice and video, and to participate in live
+				broadcasting, upon your authorization, Wushen Game will access your microphone and camera to accommodate
+				you with voice chatting, interaction during live broadcasting and other functions.</p>
+			<p>1.10
+				In accordance with relevant laws, regulations and national standards, we may collect and use your
+				personal information in the following situations without obtaining your authorization:</p>
+			<p>1) where it is directly related to national interests such as national security and national defense
+				security; and directly related to major public interests such as public security, public health, and
+				public knowledge;</p>
+			<p>2) where it is directly related to criminal investigations, prosecutions, trials and enforcement of
+				judgments, etc.;</p>
+			<p>3) where it is for protecting the fundamental legal rights of you or other individuals, such as life,
+				property and reputation, but it is also difficult to obtain consent from you or the related individual;
+			</p>
+			<p>4) where the personal information we collected is disclosed to the public by yourself;；</p>
+			<p>5) where the personal information is collected through legitimate and public channels, such as legitimate
+				news reports, government information disclosure, etc.;</p>
+			<p>6) where it is necessary to sign and perform the contract according to your requests;</p>
+			<p>7) where it is necessary to maintain a safe and stable operation of the products or services provided by
+				us, such as the discovering and treating of the malfunctions of such product or service;</p>
+			<p>8) where it is necessary for legitimate news reporting;</p>
+			<p>9) where it is necessary to conduct statistical or academic research for public interests; and when
+				externally providing the results of academic research or description, applying de-identification method
+				to the personal information contained in the results;</p>
+			<p>10) other circumstances as stipulated by the laws and regulations.</p>
+			<p>1.11 Please understand that the functions and services we provide to you are constantly updated and
+				developed. If a certain function or service is not included in the above descriptions herein but your
+				information is collected there, we will separately explain to you the content, scope and purpose of such
+				collection through prompts, interaction process, website announcement and other ways in order to obtain
+				your consent.</p>
+			<p>At present, in addition to collecting game research information from third-party research institutions to
+				help us improve game products and provide personalized services, we will not take the initiative to
+				obtain your personal information from third parties other than Wushen Game. If you need to obtain your
+				personal information indirectly from a third party other than Wushen Game for business development in
+				the future, we will make clear to you the source, type and application scope of your personal
+				information before obtaining it. If the personal information processing activities required by Wushen
+				Game for business development exceed the scope of your original authorization and consent when providing
+				personal information to a third party other than Wushen Game, we will Your express consent shall be
+				obtained before using such personal information. In addition, we will strictly abide by the relevant
+				laws and regulations, and require the third party to guarantee the legality of the information provided.
+			</p>
+			<h3 id="nav2">2.Storage of Information</h3>
+			<h4>2.1 Manner and Term of Storing Information</h4>
+			<p>We will store your information in a secure manner, including storing it locally (such as data caching via
+				APP), using database and server logs.</p>
+			<p>In general, we will only store your information for a necessary period for achieving the purpose of
+				providing our services or as required by laws and regulations.</p>
+			<h4>2.2 Territory of Storing Information</h4>
+			<p>Personal information collected within China would be stored within China pursuant to the laws and
+				regulations.</p>
+			<h4>2.3 Termination Notice of the Product or Service</h4>
+			<p>In the event the operation of a product or service is terminated, we will make an announcement in
+				accordance with the relevant laws and regulations, and will protect your legitimate rights and
+				interests.</p>
+			<h3 id="nav3">3.Information Security</h3>
+			<h4>3.1 Security Measurements</h4>
+			<p>We strive to protect information security of the users to avoid any information leakage, loss, improper
+				usage, unauthorized access and disclosure, etc. We employ multiple security measures, including
+				technical protection solutions, management system controlling, security system guarantee and others to
+				make sure the user’s personal information is protected in a reasonably secured manner. <strong>In
+					addition, the relevant system of our games has passed the examination and made a recordation at the
+					national network security level protection (Level 3).</strong></p>
+			<p>We adopt leading technical protection measures in the industry. The measures we take include but not
+				limited to firewall, encryption (such as SSL), de-identification or anonymization, access controlling,
+				etc. Further, we will constantly strengthen the security capacity of the software installed in your
+				devices. For example, we will implement part of the encryption work in your devices locally to
+				consolidate a secured transmission; we will collect the information of the applications installed in
+				your devices and its processing information during operation to avoid malicious programs such as virus
+				and Trojan.</p>
+			<p>We have established special management regulations, procedures and organizations to safeguard the
+				security of the personal information we collected. For example, we will apply strict limitation on the
+				scope of people authorized to access the information, requiring them to obey confidential obligations
+				and conducting audits. Those who violates such obligations will be punished in accordance with the
+				regulations. We will also review the management regulations, procedures and organizations to prevent
+				unauthorized access, use or disclosure of the users’ information by those people that are without
+				authorization.</p>
+			<p>We suggest you give full attention to the protection of personal information when using the products and
+				services, and we will also provide multiple security methods to assist you to protect the security of
+				your personal information.</p>
+			<h4>3.2 Dealing with Security Incident</h4>
+			<p>If any security incident such as the leak of personal information occurs, we will initiate the emergency
+				plan to prevent it from expanding. Upon the occurrence of such incident, we will inform you the basic
+				situation of the security incident, the treatment measures and remedies we will take or have taken as
+				well as our advices for you, via announcements, push notifications or emails, etc. If it is difficult to
+				inform every user, we will issue the warning through public announcements.</p>
+			<h3 id="nav4">4.How We Use the Information</h3>
+			We will strictly obey the laws, regulations and the agreement with our users, and we will make use of the
+			collected information in accordance with the Guidelines, Wushen Game License and Service Agreement and
+			Wushen Game Privacy Policy so as to provide you with better service.
+			<h4>4.1 Rules for Using Information</h4>
+			<p>We will use the collected information in accordance with the following rules:</p>
+			<p>1) based on the information we collected, we will provide you with multiple functions and services,
+				including the general gaming functions, interactive functions between players, live broadcasting
+				functions as well as consumption functions;</p>
+			<p>2) we will analyze the operation of our products based on the frequency and situations of your use of
+				Tencent Game, malfunction information and performance information, etc., so as to ensure a safe
+				provision of our services, and to optimize our products and improve the quality of our services. We will
+				not combine your personal information with the information we stored in the analysis software.</p>
+			<h4>4.2 The Way to Seek Consent after Informing the Purpose of Changing</h4>
+			<p>We will use the collected information within the scope included in the Guidelines. If we use your
+				personal information beyond the scope and a direct or reasonably relevant scope, of purpose we claimed
+				when collecting the information we will again inform you and seek your express consent before using your
+				personal information.</p>
+			<h3 id="nav5">5.Provide to Other Entities</h3>
+			<p>Currently, except for the conditions provided in the Guidelines and Wushen Game License and Service
+				Agreement, we will not actively share, provide or transfer your personal information to any other third
+				party outside of Wushen Game. In the event we share, provide or transfer your personal information or
+				you need us to share, provide or transfer your personal information to a third party outside of Wushen
+				Game, we will directly ask for your express approval or confirm that the third party has obtained your
+				express approval.</p>
+			<p>Notwithstanding the above paragraph, if the developer of Wushen game you use is an overseas subject, we
+				may provide the record or log information (such as landing log, article log, etc.) generated in the game
+				to overseas game developers for game operation statistical analysis, customer service complaint handling
+				and other game security analysis, so as to help developers improve the game service and make progress
+				Step by step to optimize the user's game experience. In addition, we will try to contact their guardians
+				after suspected minors consume, and inform their guardians of relevant consumption records and other
+				information for reminding, confirmation and handling. Except as otherwise provided in these guidelines
+				and the Wushen game license and service agreement, we will not disclose the personal information
+				collected to the public. If public disclosure is necessary, we will inform you of the purpose of this
+				public disclosure, the type of information disclosed and the sensitive information that may be involved,
+				and obtain your express consent.</p>
+			<p>As our business continuously develops, we are likely to conduct transactions such as mergers,
+				acquisitions and asset transfers, etc. We will inform you of the information and continue or require the
+				new controllers to continue to protect your personal information in accordance with the laws and
+				regulations and the standards no lower than the requirements of the Guidelines.</p>
+			<p>In addition, in accordance with relevant laws, regulations and national standards, we may share,
+				transfer, or publicly disclose personal information without your prior authorization and approval in the
+				following situations:</p>
+			<p>1) where it is directly related to the national security and national defense security;</p>
+			<p>2) where it is directly related to public security, public health or major public interests;</p>
+			<p>3) where it is directly related to criminal investigation, prosecution, trial and enforcement of
+				judgments;</p>
+			<p>4) where it is for protecting the material legal rights and interests such as life, property and others
+				of the personal information holder or other individuals but it is also difficult to obtain consent from
+				the involved person;</p>
+			<p>5) where the personal information holder publicly discloses personal information by himself/herself;</p>
+			<p>6) where the personal information is collected through legitimate and publicly channels, such as
+				legitimate news reports, government information disclosure, etc.</p>
+			<h3 id="nav6">6.Your Rights</h3>
+			<p>During the time you use Tencent Game Service, we may provide you with the corresponding operation
+				settings based on the specific situation of the game products, so that you can search, delete, change or
+				withdraw your relevant personal information. You can refer to the specific instructions of the
+				corresponding game products to guide your operation. In addition, we have set up the channel to receive
+				complaints and reports, and your opinion will be dealt with in a timely manner.</p>
+			<h3 id="nav7">7.Amendments</h3>
+			<p>We may amend the Guidelines as appropriate. When the provisions of the Guidelines have been amended, we
+				will inform you of the amended Guidelines in a proper way at the time of version update. Please read the
+				amended Guidelines or the content carefully. Your continuous use of Tencent Game would be deemed as your
+				approval for us to collect, deal with or use your personal information in accordance with the updated
+				Guidelines.</p>
+			<h3 id="nav8">8.Protection of Minors</h3>
+			<p>We attach great importance to the protection of minors' personal information, and continue to explore new
+				ways to protect minors' personal information. We will actively protect the legitimate rights and
+				interests of minors by using the anti addiction system in accordance with the requirements of the
+				national anti addiction policy. We will judge whether the real name information of the relevant account
+				is a minor through the verification of real name identity and other information, and then decide whether
+				to include this account into the anti addiction system. In addition, we will collect your login time,
+				game duration and other information, guide minors to play reasonably through automatic intervention and
+				restriction of minors' game time from the system level, and enable the forced offline function, and try
+				to contact their guardians to remind, confirm and deal with the suspected minors after consumption, so
+				as to help minors to surf the Internet healthily. If you are the legal guardian of a minor, please pay
+				attention to whether the minor under your guardianship uses the service of Wushen game or provides
+				personal information after obtaining your authorization and consent.</p>
+
+			<h3 id="nav10">9.Contact Us</h3>
+			<p>When you have other complaints, suggestions, or questions regarding personal information of minors, send
+				your questions to wushenstudio@gmail.com</p>
+
+			<p class="author">Wushen Studio</p>
+
+
+
+		</div>
+		<div id="afooter">
+			<div id="footer_css">
+				<div class="wrap_css">
+					<p class="e copyright_en">COPYRIGHT © 2021 <a href=".">Wushen Studio</a>. ALL RIGHTS RESERVED.</p>
+					<p class="copyright_zh"><a href=".">武神工作室</a> 版权所有</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
